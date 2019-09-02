@@ -24,7 +24,7 @@ const AuthStack = createStackNavigator({
   Login: {
     screen: Login,
     navigationOptions: () => ({
-      title: "Mobile Verification"
+      title: "Login"
     })
   }
 });
