@@ -20,6 +20,25 @@ const AppStackNavigator = createStackNavigator({
   }
 });
 
+const TabNavigator = createBottomTabNavigator(
+  {
+    HOME: AppStackNavigator,
+    EXPLORE: AppStackNavigator,
+    SELL: AppStackNavigator,
+    PREMIUM: AppStackNavigator,
+    SETTINGS: AppStackNavigator
+  },
+  {
+    // defaultNavigationOptions: ({ navigation }) => ({}),
+    tabBarOptions: {
+      // activeTintColor: Black.tint75Percent,
+      // inactiveTintColor: Black.tint25Percent,
+      showLabel: true,
+      style: { marginBottom: 5 }
+    }
+  }
+);
+
 const AuthStack = createStackNavigator({
   Login: {
     screen: Login,
@@ -29,33 +48,14 @@ const AuthStack = createStackNavigator({
   }
 });
 
-const TabNavigator = createBottomTabNavigator(
-  {
-    HOME: AppStackNavigator
-    // EXPLORE: ESStackNavigator,
-    // SELL: ExploreStackNavigator,
-    // PREMIUM: PremiumAdStackNavigator,
-    // SETTINGS: SettingsStackNavigator
-  },
-  {
-    // defaultNavigationOptions: ({ navigation }) => ({}),
-    tabBarOptions: {
-      // activeTintColor: Black.tint75Percent,
-      // inactiveTintColor: Black.tint25Percent,
-      showLabel: false,
-      style: { marginBottom: 5 }
-    }
-  }
-);
-
 export default createAppContainer(
   createSwitchNavigator(
     {
-      App: TabNavigator,
-      Auth: AuthStack
+      Auth: AuthStack,
+      App: TabNavigator
     },
     {
-      initialRouteName: "App"
+      initialRouteName: "Auth"
     }
   )
 );
