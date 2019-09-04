@@ -14,7 +14,7 @@ const AppStackNavigator = createStackNavigator({
   Home: {
     screen: Home,
     navigationOptions: props => ({
-      // header: null
+      header: null
       // https://reactnavigation.org/docs/navigators/stack check this for styles
     })
   }
