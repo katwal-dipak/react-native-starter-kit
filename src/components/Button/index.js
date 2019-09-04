@@ -12,7 +12,7 @@ const Button = ({ onPress, containerStyle, textStyle }) => {
       onPress={onPress}
     >
       <Icon.Button name="facebook" backgroundColor="#3b5998">
-        <Text style={textStyle}>Login with Facebook</Text>
+        <Text style={textStyle}>Login</Text>
       </Icon.Button>
     </TouchableHighlight>
   );
