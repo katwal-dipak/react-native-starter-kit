@@ -9,6 +9,7 @@ import { StyleSheet } from "react-native";
 
 import Home from "../scene/Home/HomeContainer";
 import Login from "../scene/Login/LoginContainer";
+import GoogleMap from "../scene/Map/MapContainer";
 
 const AppStackNavigator = createStackNavigator({
   Home: {
@@ -20,10 +21,20 @@ const AppStackNavigator = createStackNavigator({
   }
 });
 
+const GoogleMapStackNavigator = createStackNavigator({
+  GoogleMap: {
+    screen: GoogleMap,
+    navigationOptions: props => ({
+      header: null
+      // https://reactnavigation.org/docs/navigators/stack check this for styles
+    })
+  }
+});
+
 const TabNavigator = createBottomTabNavigator(
   {
     HOME: AppStackNavigator,
-    EXPLORE: AppStackNavigator,
+    MAP: GoogleMapStackNavigator,
     SELL: AppStackNavigator,
     PREMIUM: AppStackNavigator,
     SETTINGS: AppStackNavigator
@@ -51,11 +62,11 @@ const AuthStack = createStackNavigator({
 export default createAppContainer(
   createSwitchNavigator(
     {
-      Auth: AuthStack,
-      App: TabNavigator
+      App: TabNavigator,
+      Auth: AuthStack
     },
     {
-      initialRouteName: "Auth"
+      initialRouteName: "App"
     }
   )
 );
