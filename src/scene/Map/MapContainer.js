@@ -5,8 +5,9 @@ import MapView from "react-native-maps";
 const MapContainer = () => {
   return (
     <Fragment>
-      <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, backgroundColor: "red" }}>
         <MapView
+          style={{ flex: 1 }}
           initialRegion={{
             latitude: 37.78825,
             longitude: -122.4324,
