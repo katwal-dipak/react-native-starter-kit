@@ -5,7 +5,7 @@ import MapView from "react-native-maps";
 const MapContainer = () => {
   return (
     <Fragment>
-      <View style={{ flex: 1, backgroundColor: "red" }}>
+      <View style={{ flex: 1 }}>
         <MapView
           style={{ flex: 1 }}
           initialRegion={{
