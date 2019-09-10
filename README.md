@@ -16,4 +16,4 @@ A powerful react native starter template that bootstraps development of your mob
 
 
 # About Me
-https://katwal-dipak.github.io/
+https://katwal-dipak.github.io
