@@ -25,3 +25,9 @@ A powerful react native starter template that bootstraps development of your mob
 
 # About Me
 https://katwal-dipak.github.io
+
+# Donation
+
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](#)
