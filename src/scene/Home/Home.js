@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { StyleSheet, Text, View, FlatList, Image } from "react-native";
 
 import { styles } from "./styles";
+import Fonts from "../../styles/Fonts";
 
 const { favouriteCard, topListCard } = styles;
 
@@ -91,9 +92,25 @@ class Home extends React.Component {
   render() {
     return (
       <Fragment>
-        <Text style={{ padding: 15, fontSize: 24 }}>Find Property</Text>
+        <Text
+          style={{
+            padding: 15,
+            fontSize: 24,
+            fontFamily: Fonts.DancingScriptOT
+          }}
+        >
+          Find Property
+        </Text>
         {this.renderFavouriteList()}
-        <Text style={{ padding: 15, fontSize: 18 }}>Top Property</Text>
+        <Text
+          style={{
+            padding: 15,
+            fontSize: 18,
+            fontFamily: Fonts.DancingScriptOT
+          }}
+        >
+          Top Property
+        </Text>
         {this.renderTopList()}
       </Fragment>
     );
