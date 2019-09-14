@@ -96,14 +96,18 @@ class Home extends React.Component {
           style={{
             padding: 15,
             fontSize: 24,
-            fontFamily: Fonts.LatoRegular
+            fontFamily: Fonts.DancingScriptOT
           }}
         >
           Find Property
         </Text>
         {this.renderFavouriteList()}
         <Text
-          style={{ padding: 15, fontSize: 18, fontFamily: Fonts.LatoRegular }}
+          style={{
+            padding: 15,
+            fontSize: 18,
+            fontFamily: Fonts.DancingScriptOT
+          }}
         >
           Top Property
         </Text>
