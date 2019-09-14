@@ -1,17 +1,26 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import { StyleSheet, View } from "react-native";
+import SplashScreen from "react-native-splash-screen";
 
 import Button from "../../components/Button";
 
-const LoginContainer = ({ navigation }) => {
-  return (
-    <Fragment>
-      <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
-        <Button onPress={() => navigation.navigate("Home")} />
-      </View>
-    </Fragment>
-  );
-};
+class LoginContainer extends Component {
+  componentDidMount() {
+    SplashScreen.hide();
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <View
+          style={{ justifyContent: "center", alignItems: "center", flex: 1 }}
+        >
+          <Button onPress={() => navigation.navigate("Home")} />
+        </View>
+      </Fragment>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   scrollView: {
