@@ -1,8 +1,7 @@
 import React, { Fragment, Component } from "react";
 import { StyleSheet, View } from "react-native";
 import SplashScreen from "react-native-splash-screen";
-
-import Button from "../../components/Button";
+import { SocialIcon } from "react-native-elements";
 
 class LoginContainer extends Component {
   componentDidMount() {
@@ -10,12 +9,18 @@ class LoginContainer extends Component {
   }
 
   render() {
+    const { navigation } = this.props;
+
     return (
       <Fragment>
-        <View
-          style={{ justifyContent: "center", alignItems: "center", flex: 1 }}
-        >
-          <Button onPress={() => navigation.navigate("Home")} />
+        <View style={{ justifyContent: "center", flex: 1 }}>
+          <SocialIcon
+            title="Sign In With Facebook"
+            button
+            type="facebook"
+            onPress={() => navigation.navigate("Home")}
+            style={{ marginHorizontal: 50 }}
+          />
         </View>
       </Fragment>
     );
