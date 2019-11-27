@@ -6,6 +6,7 @@ import {
   createBottomTabNavigator
 } from "react-navigation";
 import { StyleSheet } from "react-native";
+import EvilIcons from "react-native-vector-icons/EvilIcons";
 
 import Home from "../scene/Home/HomeContainer";
 import Login from "../scene/Login/LoginContainer";
@@ -26,7 +27,7 @@ const GoogleMapStackNavigator = createStackNavigator({
   GoogleMap: {
     screen: GoogleMap,
     navigationOptions: props => ({
-      title: "React Native Maps"
+      title: "React Native Map"
       // https://reactnavigation.org/docs/navigators/stack check this for styles
     })
   }
@@ -51,11 +52,51 @@ const TabNavigator = createBottomTabNavigator(
     SETTINGS: AppStackNavigator
   },
   {
-    // defaultNavigationOptions: ({ navigation }) => ({}),
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ tintColor }) => {
+        const { routeName } = navigation.state;
+        let iconName;
+
+        switch (routeName) {
+          case "HOME":
+            iconName = "search";
+            break;
+
+          case "MAP":
+            iconName = "location";
+            break;
+
+          case "SELL":
+            iconName = "plus";
+            break;
+
+          case "SETTINGS":
+            iconName = "gear";
+            break;
+
+          case "PREMIUM":
+            iconName = "heart";
+            break;
+
+          default:
+            iconName = "gear";
+            break;
+        }
+
+        return (
+          <EvilIcons
+            name={iconName}
+            size={35}
+            color={tintColor}
+            style={{ marginTop: 5 }}
+          />
+        );
+      }
+    }),
     tabBarOptions: {
-      // activeTintColor: Black.tint75Percent,
-      // inactiveTintColor: Black.tint25Percent,
-      showLabel: true,
+      activeTintColor: "#f50",
+      //inactiveTintColor: Black.tint25Percent,
+      showLabel: false,
       style: { marginBottom: 5 }
     }
   }
