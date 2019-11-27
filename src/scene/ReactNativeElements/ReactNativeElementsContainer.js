@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from "react";
 import { StyleSheet, Text, ScrollView, View } from "react-native";
-import { Avatar, Icon, Badge } from "react-native-elements";
+import { Avatar, Icon, Button, PricingCard } from "react-native-elements";
+
 import Fonts from "../../styles/Fonts";
 
 class ReactNativeElements extends Component {
@@ -70,6 +71,15 @@ class ReactNativeElements extends Component {
                 }}
                 showEditButton
                 size="large"
+              />
+            </View>
+            <View style={{ flexDirection: "column", marginVertical: 25 }}>
+              <PricingCard
+                color="#4f9deb"
+                title="Free"
+                price="$0"
+                info={["1 User", "Basic Support", "All Core Features"]}
+                button={{ title: "GET STARTED", icon: "flight-takeoff" }}
               />
             </View>
           </View>
