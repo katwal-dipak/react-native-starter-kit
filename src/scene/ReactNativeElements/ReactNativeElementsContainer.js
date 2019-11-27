@@ -64,11 +64,14 @@ class ReactNativeElements extends Component {
             </View>
             <View style={{ flexDirection: "column", marginVertical: 25 }}>
               <PricingCard
-                color="#4f9deb"
+                color="#f50"
                 title="Free"
                 price="$0"
                 info={["1 User", "Basic Support", "All Core Features"]}
-                button={{ title: "GET STARTED", icon: "flight-takeoff" }}
+                button={{
+                  title: "GET STARTED",
+                  icon: "flight-takeoff"
+                }}
               />
             </View>
             <Card
@@ -88,7 +91,8 @@ class ReactNativeElements extends Component {
                   borderRadius: 0,
                   marginLeft: 0,
                   marginRight: 0,
-                  marginBottom: 0
+                  marginBottom: 0,
+                  backgroundColor: "#f50"
                 }}
                 title="VIEW NOW"
               />
