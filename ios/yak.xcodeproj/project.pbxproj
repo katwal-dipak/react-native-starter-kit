@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00920CB180D24CB780EFF177 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5A6AF847A949DD984B0BD1 /* Octicons.ttf */; };
 		00E356F31AD99517003FC87E /* yakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* yakTests.m */; };
@@ -34,6 +33,12 @@
 		9AB4C1901E84407CB2BE6EC9 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6674D984454640B87FCB76 /* Zocial.ttf */; };
 		A50BDF33FC354569A1C50B84 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18736065C9564175975392FF /* AntDesign.ttf */; };
 		AD6386FFB8ECFD126479CC27 /* libPods-yakTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4867B10C2C9302BA75FC3E85 /* libPods-yakTests.a */; };
+		B833A691238EFED20051F697 /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A68B238EFED20051F697 /* PoiretOne-Regular.ttf */; };
+		B833A692238EFED20051F697 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A68C238EFED20051F697 /* KaushanScript-Regular.ttf */; };
+		B833A693238EFED20051F697 /* AlfaSlabOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A68D238EFED20051F697 /* AlfaSlabOne-Regular.ttf */; };
+		B833A694238EFED20051F697 /* Sacramento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A68E238EFED20051F697 /* Sacramento-Regular.ttf */; };
+		B833A695238EFED20051F697 /* DidactGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A68F238EFED20051F697 /* DidactGothic-Regular.ttf */; };
+		B833A696238EFED20051F697 /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B833A690238EFED20051F697 /* Monoton-Regular.ttf */; };
 		B86C8935238E832B008AFF75 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8932238E832B008AFF75 /* Lato-Bold.ttf */; };
 		B86C8936238E832B008AFF75 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8933238E832B008AFF75 /* Lato-Regular.ttf */; };
 		B86C8937238E832B008AFF75 /* Dancing Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8934238E832B008AFF75 /* Dancing Script.ttf */; };
@@ -93,6 +98,12 @@
 		AD5A6AF847A949DD984B0BD1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		AE045E1308984C5398691DC2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		B26ABA6E50E39C0861C2EE7C /* libPods-yak-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yak-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833A68B238EFED20051F697 /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PoiretOne-Regular.ttf"; path = "../assets/fonts/PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
+		B833A68C238EFED20051F697 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KaushanScript-Regular.ttf"; path = "../assets/fonts/KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
+		B833A68D238EFED20051F697 /* AlfaSlabOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AlfaSlabOne-Regular.ttf"; path = "../assets/fonts/AlfaSlabOne-Regular.ttf"; sourceTree = "<group>"; };
+		B833A68E238EFED20051F697 /* Sacramento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sacramento-Regular.ttf"; path = "../assets/fonts/Sacramento-Regular.ttf"; sourceTree = "<group>"; };
+		B833A68F238EFED20051F697 /* DidactGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DidactGothic-Regular.ttf"; path = "../assets/fonts/DidactGothic-Regular.ttf"; sourceTree = "<group>"; };
+		B833A690238EFED20051F697 /* Monoton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Monoton-Regular.ttf"; path = "../assets/fonts/Monoton-Regular.ttf"; sourceTree = "<group>"; };
 		B86C8932238E832B008AFF75 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
 		B86C8933238E832B008AFF75 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		B86C8934238E832B008AFF75 /* Dancing Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dancing Script.ttf"; path = "../assets/fonts/Dancing Script.ttf"; sourceTree = "<group>"; };
@@ -239,6 +250,12 @@
 		91CC3D75AC38493C9E8BC750 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B833A68D238EFED20051F697 /* AlfaSlabOne-Regular.ttf */,
+				B833A68F238EFED20051F697 /* DidactGothic-Regular.ttf */,
+				B833A68C238EFED20051F697 /* KaushanScript-Regular.ttf */,
+				B833A690238EFED20051F697 /* Monoton-Regular.ttf */,
+				B833A68B238EFED20051F697 /* PoiretOne-Regular.ttf */,
+				B833A68E238EFED20051F697 /* Sacramento-Regular.ttf */,
 				B86C8934238E832B008AFF75 /* Dancing Script.ttf */,
 				B86C8932238E832B008AFF75 /* Lato-Bold.ttf */,
 				B86C8933238E832B008AFF75 /* Lato-Regular.ttf */,
@@ -415,16 +432,22 @@
 				3B64416396AC47C78141E9F3 /* Entypo.ttf in Resources */,
 				2B44BD7F0BF849EC81BB7438 /* EvilIcons.ttf in Resources */,
 				48D7C37C3165406FB0FFFF69 /* Feather.ttf in Resources */,
+				B833A695238EFED20051F697 /* DidactGothic-Regular.ttf in Resources */,
 				947A5E4D5BBE4D769C1E0B36 /* FontAwesome.ttf in Resources */,
 				B86C8936238E832B008AFF75 /* Lato-Regular.ttf in Resources */,
 				F1C90D22799046AB96A2074A /* FontAwesome5_Brands.ttf in Resources */,
+				B833A692238EFED20051F697 /* KaushanScript-Regular.ttf in Resources */,
 				0F1D9FB7AEF7419EAA92973A /* FontAwesome5_Regular.ttf in Resources */,
+				B833A696238EFED20051F697 /* Monoton-Regular.ttf in Resources */,
 				09EAC4D4493C4A329EFA6BA2 /* FontAwesome5_Solid.ttf in Resources */,
+				B833A691238EFED20051F697 /* PoiretOne-Regular.ttf in Resources */,
 				B86C8937238E832B008AFF75 /* Dancing Script.ttf in Resources */,
 				7E0780D4BD92498EAF97E778 /* Fontisto.ttf in Resources */,
 				B86C8935238E832B008AFF75 /* Lato-Bold.ttf in Resources */,
 				6AD21FD579EA441885A68F31 /* Foundation.ttf in Resources */,
 				40FDEA79A3FB41D39B6348AB /* Ionicons.ttf in Resources */,
+				B833A693238EFED20051F697 /* AlfaSlabOne-Regular.ttf in Resources */,
+				B833A694238EFED20051F697 /* Sacramento-Regular.ttf in Resources */,
 				22C657B4FC3D4F55BE3A1F47 /* MaterialCommunityIcons.ttf in Resources */,
 				D7FCBBD461A24CB4B2F4A7C4 /* MaterialIcons.ttf in Resources */,
 				00920CB180D24CB780EFF177 /* Octicons.ttf in Resources */,

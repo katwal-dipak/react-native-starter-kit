@@ -96,7 +96,7 @@ class Home extends React.Component {
           style={{
             padding: 15,
             fontSize: 24,
-            fontFamily: Fonts.DancingScriptOT
+            fontFamily: Fonts.MonotonRegular
           }}
         >
           Find Property
@@ -105,8 +105,8 @@ class Home extends React.Component {
         <Text
           style={{
             padding: 15,
-            fontSize: 18,
-            fontFamily: Fonts.DancingScriptOT
+            fontSize: 24,
+            fontFamily: Fonts.DidactGothicRegular
           }}
         >
           Top Property
