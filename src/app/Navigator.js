@@ -26,7 +26,7 @@ const GoogleMapStackNavigator = createStackNavigator({
   GoogleMap: {
     screen: GoogleMap,
     navigationOptions: props => ({
-      //header: null
+      title: "React Native Maps"
       // https://reactnavigation.org/docs/navigators/stack check this for styles
     })
   }
@@ -36,7 +36,7 @@ const RNElementsNavigator = createStackNavigator({
   GoogleMap: {
     screen: ReactNativeElements,
     navigationOptions: props => ({
-      //header: null
+      title: "React Native Elements"
       // https://reactnavigation.org/docs/navigators/stack check this for styles
     })
   }

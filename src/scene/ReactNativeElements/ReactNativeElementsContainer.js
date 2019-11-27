@@ -2,23 +2,12 @@ import React, { Fragment, Component } from "react";
 import { StyleSheet, Text, ScrollView, View } from "react-native";
 import { Avatar, Icon, Button, PricingCard, Card } from "react-native-elements";
 
-import Fonts from "../../styles/Fonts";
-
 class ReactNativeElements extends Component {
   render() {
     return (
       <Fragment>
         <ScrollView>
           <View style={{ flexDirection: "column", paddingHorizontal: 10 }}>
-            <Text
-              style={{
-                fontSize: 25,
-                marginTop: 5,
-                fontFamily: Fonts.DancingScriptOT
-              }}
-            >
-              React Native Elements
-            </Text>
             <View
               style={{
                 flexDirection: "row",
