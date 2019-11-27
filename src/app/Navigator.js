@@ -10,6 +10,7 @@ import { StyleSheet } from "react-native";
 import Home from "../scene/Home/HomeContainer";
 import Login from "../scene/Login/LoginContainer";
 import GoogleMap from "../scene/Map/MapContainer";
+import ReactNativeElements from "../scene/ReactNativeElements/ReactNativeElementsContainer";
 
 const AppStackNavigator = createStackNavigator({
   Home: {
@@ -31,11 +32,21 @@ const GoogleMapStackNavigator = createStackNavigator({
   }
 });
 
+const RNElementsNavigator = createStackNavigator({
+  GoogleMap: {
+    screen: ReactNativeElements,
+    navigationOptions: props => ({
+      //header: null
+      // https://reactnavigation.org/docs/navigators/stack check this for styles
+    })
+  }
+});
+
 const TabNavigator = createBottomTabNavigator(
   {
     HOME: AppStackNavigator,
     MAP: GoogleMapStackNavigator,
-    SELL: AppStackNavigator,
+    SELL: RNElementsNavigator,
     PREMIUM: AppStackNavigator,
     SETTINGS: AppStackNavigator
   },
