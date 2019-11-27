@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from "react";
 import { StyleSheet, Text, ScrollView, View } from "react-native";
-import { Avatar, Icon, Button, PricingCard } from "react-native-elements";
+import { Avatar, Icon, Button, PricingCard, Card } from "react-native-elements";
 
 import Fonts from "../../styles/Fonts";
 
@@ -82,6 +82,28 @@ class ReactNativeElements extends Component {
                 button={{ title: "GET STARTED", icon: "flight-takeoff" }}
               />
             </View>
+            <Card
+              title="HELLO WORLD"
+              image={{
+                uri:
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg"
+              }}
+            >
+              <Text style={{ marginBottom: 10 }}>
+                The idea with React Native Elements is more about component
+                structure than actual design.
+              </Text>
+              <Button
+                icon={<Icon name="code" color="#ffffff" />}
+                buttonStyle={{
+                  borderRadius: 0,
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginBottom: 0
+                }}
+                title="VIEW NOW"
+              />
+            </Card>
           </View>
         </ScrollView>
       </Fragment>
