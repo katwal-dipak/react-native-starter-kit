@@ -18,6 +18,6 @@ export const styles = StyleSheet.create({
     width: topListCardWidth,
     height: topListCardHeight,
     backgroundColor: "#F7F7F7",
-    marginRight: 15
+    padding: 5
   }
 });

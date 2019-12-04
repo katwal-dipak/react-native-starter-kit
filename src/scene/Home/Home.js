@@ -31,6 +31,11 @@ const FavListData = [
     name: "sujal",
     imageURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjiT7Wrbep-L4hRNAgqsb81hVi5ipqhU_h6fKYbnwXW80jBczVTw"
+  },
+  {
+    name: "sujal",
+    imageURL:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjiT7Wrbep-L4hRNAgqsb81hVi5ipqhU_h6fKYbnwXW80jBczVTw"
   }
 ];
 
@@ -77,7 +82,7 @@ class Home extends React.Component {
 
   renderTopList = () => {
     return (
-      <View style={{ padding: 15 }}>
+      <View style={{ padding: 15, alignItems: "center" }}>
         <FlatList
           showsHorizontalScrollIndicator={false}
           data={FavListData}
