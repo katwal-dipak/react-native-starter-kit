@@ -15,6 +15,7 @@
 </body>
 </html>
 
+## React Native Version 0.60.4
 
 ## What's inside
 
