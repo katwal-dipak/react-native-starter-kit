@@ -1,6 +1,8 @@
+[![GitHub tag](https://img.shields.io/github/tag/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/tags)
 [![GitHub license](https://img.shields.io/github/license/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/contributors)
 
 <!DOCTYPE html>
 <html>
