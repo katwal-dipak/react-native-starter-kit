@@ -23,6 +23,7 @@
 * Splash Screen
 * Vector Icons
 * React Native Elements
+* Custom Fonts
 
 ## In Progress
 
