@@ -38,6 +38,11 @@ npm install
 # Install Pods
 cd ios && pod instal
 ```
+### Run the React Native App
+```
+npx react-native run-android
+npx react-native run-ios
+```
 
 ### About Me
 [Linkedin](https://www.linkedin.com/in/deepak-katuwal-685b22117/)
