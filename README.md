@@ -1,3 +1,5 @@
+# React Native Starter Kit 🚀
+
 [![GitHub tag](https://img.shields.io/github/tag/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/tags)
 [![GitHub license](https://img.shields.io/github/license/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/katwal-dipak/react-native-starter-kit?style=for-the-badge)](https://github.com/katwal-dipak/react-native-starter-kit/issues)
