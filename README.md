@@ -27,8 +27,9 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 * Context for state management
 
-## About Me
-https://katwal-dipak.github.io
+# About Me
+[Linkedin](https://www.linkedin.com/in/deepak-katuwal-685b22117/)
+
 
 ## Donation
 
