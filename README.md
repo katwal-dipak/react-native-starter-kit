@@ -12,7 +12,7 @@
 <html>
 <body>
   
-<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fscreenshot_2.jpg?alt=media&token=4688a5f6-eedb-4963-9eac-6c259462d7eb">
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fscreenshot_1.jpg?alt=media&token=e4675e36-d4f7-4113-bbf7-14a01989709e">
 
 </body>
 </html>
