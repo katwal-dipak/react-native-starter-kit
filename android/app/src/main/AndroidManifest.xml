@@ -24,6 +24,7 @@
 	  <meta-data
           android:name="com.google.android.geo.API_KEY"
           android:value="<ADD YOUR GOOGLE MAP KEY>"/>
+          
     </application>
 
 </manifest>
