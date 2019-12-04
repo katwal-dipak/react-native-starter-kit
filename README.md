@@ -11,7 +11,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/react_native_banner.jpg?alt=media&token=661da2e8-cbae-40cd-a0b7-d66ba1e39ee2" alt=""  width="600" height="315">
+  
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fscreenshot_2.jpg?alt=media&token=4688a5f6-eedb-4963-9eac-6c259462d7eb">
 
 </body>
 </html>
