@@ -14,13 +14,13 @@
 </html>
 
 
-## Features
+## What's inside
 
-* [React Navigation](https://reactnavigation.org/)
-* [React Native Maps](https://github.com/react-native-community/react-native-maps)
-* [React Navigation](https://reactnavigation.org/)
-* [React Navigation](https://reactnavigation.org/)
-* [React Navigation](https://reactnavigation.org/)
+* React Navigation
+* React Native Maps
+* Splash Screen
+* Vector Icons
+* React Native Elements
 
 # About Me
 https://katwal-dipak.github.io
