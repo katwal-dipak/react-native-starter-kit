@@ -38,6 +38,17 @@ npm install
 # Install Pods
 cd ios && pod instal
 ```
+
+### Add Google Map API Key
+```
+# iOS
+In AppDelegate.m : [GMSServices provideAPIKey:@"<ADD YOUR GOOGLE MAP KEY>"]
+
+# Android
+In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
+
+```
+
 ### Run the React Native App
 ```
 npx react-native run-android
