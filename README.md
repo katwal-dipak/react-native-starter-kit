@@ -16,12 +16,18 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 ### What's inside
 
-* React Navigation
-* React Native Maps
-* Splash Screen
-* Vector Icons
-* React Native Elements
+* React Navigation for simple navigation
+* React Native Maps: Google Map for both Android & iOS
+* [Splash Screen](https://github.com/crazycodeboy/react-native-splash-screen)
+* Vector Icons : Customizable Icons for React Native
+* React Native Elements: [UI Toolkit](https://react-native-elements.github.io/react-native-elements/docs/overview.html)
 * Custom Fonts
+
+
+
+
+Disk-persisted application state caching
+More than 16 Ready-to-use Pages
 
 ### In Progress
 
