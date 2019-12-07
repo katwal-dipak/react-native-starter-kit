@@ -64,7 +64,8 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 ### About Me
 
 [Linkedin](https://www.linkedin.com/in/dipak-katwal/)
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="dipak-katwal"><a class="LI-simple-link" href='https://in.linkedin.com/in/dipak-katwal?trk=profile-badge'>Deepak K.</a></div>
+
+
 
 ### Donation
 
