@@ -22,6 +22,7 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 * Vector Icons : Customizable Icons for React Native
 * React Native Elements: [UI Toolkit](https://react-native-elements.github.io/react-native-elements/docs/overview.html)
 * Custom Fonts
+* Adobe After Effects animations ([lottie-react-native](https://github.com/react-native-community/lottie-react-native))
 
 
 
