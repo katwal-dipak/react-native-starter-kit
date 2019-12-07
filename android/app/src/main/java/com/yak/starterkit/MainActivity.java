@@ -1,4 +1,4 @@
-package com.yak;
+package com.yak.starterkit;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;

@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.yak"
+        applicationId "com.yak.starterkit"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
