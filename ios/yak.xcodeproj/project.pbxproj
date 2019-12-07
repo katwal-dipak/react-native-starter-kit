@@ -43,6 +43,7 @@
 		B86C8935238E832B008AFF75 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8932238E832B008AFF75 /* Lato-Bold.ttf */; };
 		B86C8936238E832B008AFF75 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8933238E832B008AFF75 /* Lato-Regular.ttf */; };
 		B86C8937238E832B008AFF75 /* Dancing Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C8934238E832B008AFF75 /* Dancing Script.ttf */; };
+		B8B04C17239BBB71005D9DE1 /* BridgeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B04C16239BBB71005D9DE1 /* BridgeFile.swift */; };
 		D7FCBBD461A24CB4B2F4A7C4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE045E1308984C5398691DC2 /* MaterialIcons.ttf */; };
 		F1C90D22799046AB96A2074A /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEF9F34F48E944C7B12327CB /* FontAwesome5_Brands.ttf */; };
 /* End PBXBuildFile section */
@@ -108,6 +109,8 @@
 		B86C8932238E832B008AFF75 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
 		B86C8933238E832B008AFF75 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		B86C8934238E832B008AFF75 /* Dancing Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dancing Script.ttf"; path = "../assets/fonts/Dancing Script.ttf"; sourceTree = "<group>"; };
+		B8B04C15239BBB71005D9DE1 /* yak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yak-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8B04C16239BBB71005D9DE1 /* BridgeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BridgeFile.swift; path = Pods/BridgeFile.swift; sourceTree = "<group>"; };
 		BA93044240F44D5F977D1FEE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		BEF9F34F48E944C7B12327CB /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		C236785D259044B8AF0369CF /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
@@ -224,6 +227,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B8B04C16239BBB71005D9DE1 /* BridgeFile.swift */,
 				13B07FAE1A68108700A75B9A /* yak */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* yakTests */,
@@ -231,6 +235,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				70B95183F49C234D64DA1754 /* Pods */,
 				91CC3D75AC38493C9E8BC750 /* Resources */,
+				B8B04C15239BBB71005D9DE1 /* yak-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = D6665ZYTW5;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -694,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B04C17239BBB71005D9DE1 /* BridgeFile.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -748,6 +755,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3E77D54C211507E97A1A174 /* Pods-yakTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = D6665ZYTW5;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -772,6 +780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1ADBF338695738769D09B169 /* Pods-yakTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = D6665ZYTW5;
@@ -794,6 +803,7 @@
 			baseConfigurationReference = 9E14B5095769A937FBA4F312 /* Pods-yak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -810,6 +820,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Yak;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "yak-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -819,6 +832,7 @@
 			baseConfigurationReference = 87A2ABF310DC6C8A006B374F /* Pods-yak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -834,6 +848,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Yak;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "yak-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

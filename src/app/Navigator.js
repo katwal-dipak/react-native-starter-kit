@@ -13,6 +13,7 @@ import Login from "../scene/Login/LoginContainer";
 import GoogleMap from "../scene/Map/MapContainer";
 import ReactNativeElements from "../scene/ReactNativeElements/ReactNativeElementsContainer";
 import CustomFonts from "../scene/CustomFonts/CustomFontsContainer";
+import LottieDemo from "../scene/Lottie/LottieDemo";
 
 const AppStackNavigator = createStackNavigator({
   Home: {
@@ -34,7 +35,7 @@ const GoogleMapStackNavigator = createStackNavigator({
 });
 
 const RNElementsNavigator = createStackNavigator({
-  GoogleMap: {
+  ReactNativeElements: {
     screen: ReactNativeElements,
     navigationOptions: props => ({
       title: "React Native Elements"
@@ -43,10 +44,19 @@ const RNElementsNavigator = createStackNavigator({
 });
 
 const CustomFontsNavigator = createStackNavigator({
-  GoogleMap: {
+  CustomFonts: {
     screen: CustomFonts,
     navigationOptions: props => ({
       title: "Custom Fonts"
+    })
+  }
+});
+
+const SettingsNavigator = createStackNavigator({
+  LottieDemo: {
+    screen: LottieDemo,
+    navigationOptions: props => ({
+      title: "Animation"
     })
   }
 });
@@ -57,7 +67,7 @@ const TabNavigator = createBottomTabNavigator(
     MAP: GoogleMapStackNavigator,
     SELL: RNElementsNavigator,
     PREMIUM: CustomFontsNavigator,
-    SETTINGS: AppStackNavigator
+    SETTINGS: SettingsNavigator
   },
   {
     defaultNavigationOptions: ({ navigation }) => ({
