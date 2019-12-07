@@ -24,11 +24,8 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 * Custom Fonts
 * Adobe After Effects animations ([lottie-react-native](https://github.com/react-native-community/lottie-react-native))
 
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2F1.gif?alt=media&token=26f7c0e8-23d2-423c-ade7-e4813686ca9d"> <img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2F2.gif?alt=media&token=fc43ec81-11cf-40ff-bc27-f5bfcac6bb3c">
 
-
-
-Disk-persisted application state caching
-More than 16 Ready-to-use Pages
 
 ### In Progress
 
