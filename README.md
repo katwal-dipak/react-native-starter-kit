@@ -63,7 +63,7 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 
 ### About Me
 
-[Linkedin](https://www.linkedin.com/in/deepak-katuwal-685b22117/)
+[Linkedin](https://www.linkedin.com/in/dipak-katwal/)
 
 ### Donation
 
