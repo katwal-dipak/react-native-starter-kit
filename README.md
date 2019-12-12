@@ -10,10 +10,6 @@
 
 ### React Native Version 0.60.4
 
-If this project help you reduce time to develop, you can give me a cup of coffee :)
-
-<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fbuy_me_coffee.png?alt=media&token=b81973ea-df2d-44eb-b22d-3acd28191ddb" height="60" width="180">
-
 ### What's inside
 
 - React Navigation for simple navigation
@@ -65,11 +61,6 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 
 [Linkedin](https://www.linkedin.com/in/dipak-katwal/)
 
-
-
-### Donation
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](#)
 
 ### License
 
