@@ -79,6 +79,15 @@ class CustomFonts extends Component {
             >
               React Native Starter Kit
             </Text>
+            <Text
+              style={{
+                fontFamily: Fonts.LatoBold,
+                fontSize: 20,
+                paddingVertical: 10
+              }}
+            >
+              React Native Starter Kit
+            </Text>
           </View>
         </ScrollView>
       </Fragment>
