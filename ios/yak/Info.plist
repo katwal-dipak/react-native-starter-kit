@@ -38,7 +38,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
@@ -58,7 +58,7 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 		<string>Dancing Script.ttf</string>
-		<string> Lato-Regular.ttf </string>
+		<string>Lato-Regular.ttf </string>
 		<string>Lato-Bold.ttf</string>
 		<string>PoiretOne-Regular.ttf</string>
 		<string>KaushanScript-Regular.ttf</string>
