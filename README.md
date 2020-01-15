@@ -64,3 +64,19 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 ### License
 
 [MIT License](LICENSE)
+
+
+## Premium Templates
+
+### Eatsy - Order Food Online
+[Google Play](https://play.google.com/store/apps/details?id=com.yak.starterkit)
+
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F00.png?alt=media&token=48b65f5d-5cc4-4461-8620-1db6fa12a062">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F01.png?alt=media&token=d5e828f7-9cc4-4c0f-a72c-686c33a2764f">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F02.png?alt=media&token=e21dd012-f317-42af-b384-98cc9f65e237">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F03.png?alt=media&token=87538378-0d8a-448e-ad8f-3ec2377f7fcb">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F04.png?alt=media&token=15691e14-62e8-4332-ae20-aeb6dd3e1eb2">
