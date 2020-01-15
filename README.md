@@ -69,7 +69,7 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 ## Premium Templates
 
 ### Eatsy - Order Food Online
-[Google Play](https://play.google.com/store/apps/details?id=com.yak.starterkit)
+[Demo: Google Play](https://play.google.com/store/apps/details?id=com.yak.starterkit)
 
 <img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2FEatsy%2F00.png?alt=media&token=48b65f5d-5cc4-4461-8620-1db6fa12a062">
 
