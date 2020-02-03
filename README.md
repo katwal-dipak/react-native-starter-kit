@@ -73,5 +73,5 @@ In AndroidManifest.xml : android:value="<ADD YOUR GOOGLE MAP KEY>"/>
 
 [Download Source Code](https://codecanyon.net/item/eatsy-react-native-theme/25567533)
 
-<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fscreenshot_1-tile.png?alt=media&token=fcb2d9ce-cc80-4505-933d-ea87c8fee85d">
+<img src="https://firebasestorage.googleapis.com/v0/b/innernepal-dca5b.appspot.com/o/reactNativeStarterKit%2Fscreenshot_1-tile.png?alt=media&token=d408c682-b3b0-4952-81ea-ea3bd669153c">
 
